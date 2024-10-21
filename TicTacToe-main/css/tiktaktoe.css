@@ -1,0 +1,72 @@
+input[type=button]{
+    width: 200px;
+    height: 200px;
+    font-size: 100px;
+}
+
+body{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+table, td, tr{
+    position: relative;/*para que los elementos se posicionen de forma absoluta sobre la tabla*/
+    
+    
+}
+
+/* 
+td:nth-child(2)::after{
+    content: "";
+    position: absolute;
+    top: -20px;
+    bottom: -20px;
+    left: 50%;
+    width: 20px;
+    background-color: black;
+    z-index: 1;
+    pointer-events: none;
+}
+
+tr:nth-child(2)::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background-color: black;
+    z-index: 1;
+    pointer-events: none;
+}
+
+table::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% * 1.414);
+    height: calc(100% * 1.414);
+    border-top: 20px solid black;
+    transform: rotate(45deg);
+    transform-origin: top left;
+    z-index: 1;
+    pointer-events: none;
+
+}
+
+table::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(100% * 1.414);
+    height: calc(100% * 1.414);
+    border-top: 20px solid black;
+    transform: rotate(-45deg);
+    transform-origin: top right;
+    z-index: 1;
+    pointer-events: none;
+} */
